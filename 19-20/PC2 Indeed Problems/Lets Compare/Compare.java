@@ -10,15 +10,15 @@ public class Compare {
         while (file.hasNext()) {
             String line = file.nextLine();
 
-            for (int i = 0; i < comapreTo.length() - 1 && i < line.length() - 1; i++) {
-                int x = 0;
+            int x = 0;
 
+            for (int i = 0; i < comapreTo.length() && i < line.length(); i++) {
                 if (line.charAt(i) == comapreTo.charAt(i)) {
                     x++;
                 }
-
-                System.out.println(x);
             }
+
+            System.out.println(x);
         }
     }
 }
