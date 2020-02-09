@@ -1,6 +1,6 @@
 # Lasa-Computer-Science
 
-A repository of assorted school projects for [LASA computer science](lasacs.com)
+A repository of assorted school projects for [LASA computer science](https://lasacs.com)
 
 ## PC2-Indeed-Problems
 
