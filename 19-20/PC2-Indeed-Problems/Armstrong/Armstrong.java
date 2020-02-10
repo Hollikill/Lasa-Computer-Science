@@ -24,5 +24,7 @@ public class Armstrong {
                 System.out.println("NOT AN ARMSTRONG");
             }
         }
+
+        file.close();
     }
 }
