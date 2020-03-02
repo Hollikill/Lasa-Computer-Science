@@ -8,4 +8,4 @@ A project where many [small assignments](https://docs.google.com/document/d/1oWQ
 
 ### L10n
 
-a localization project for class, code not mine unless otherwise indicated
+a localization project for class, check for school-provided files commit
