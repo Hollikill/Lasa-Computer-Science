@@ -1,0 +1,21 @@
+1. Bolivia (Spanish)
+2. Vietnam (Vietnamese)
+3. Germany (German)    
+4. Spain (Spanish)     
+5. Vatican City (Latin)
+6. Mexico (Spanish)
+7. The Netherlands (Dutch)
+8. India (Hindi)
+What locale do you want? 
+4
+Buenas tardes!
+What's the hour?
+4
+What's the minute?
+44
+The local time is: 11:44
+How much money do you have in your wallet?
+444
+In Spain, that's worth Euro333.0
+[Hola, here in Bolivia we speak Spanish. It is currently 10:39. $20.00 is equal to Bs.142.86., Chao, here in Vietnam we speak Vietnamese. It is currently 9:39. $20.00 is equal to ?416500.00., Hallo, here in Germany we speak German. It is currently 3:39. $20.00 is equal to Euro14.80., Buenas tardes!, here in Spain we speak Spanish. It is currently 27:39. $20.00 is equal to Euro15.00., Salve, here in Vatican City we speak Latin. It is currently 20:39. $20.00 is equal to Euro14.93., Hola, here in Mexico we speak Spanish. It is currently 20:39. $20.00 is equal to $387.60., Hallo!, here in The Netherlands we speak Dutch. It is 
+currently 27:39. $20.00 is equal to Euro15.00., namaste, here in India we speak Hindi. It is currently 7:39. $20.00 is equal to Rs1064.40.]
