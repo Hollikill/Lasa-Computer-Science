@@ -2,7 +2,11 @@ import java.util.*;
 
 public class MainSort {
     public static void main (String args[]) {
-
+        ArrayList<Integer> arr = generateArrayList(20);
+        System.out.println(arr);
+        Sorter sorter = new Sorter();
+        sorter.selectionSort(arr, true);
+        System.out.println(arr);
     }
 
     public static int[] generateArray (int length) {
@@ -13,7 +17,7 @@ public class MainSort {
         return list;
     }
     public static int[] generateArray () {
-        return generateArray();
+        return generateArray(10);
     }
 
     public static ArrayList<Integer> generateArrayList (int length) {
