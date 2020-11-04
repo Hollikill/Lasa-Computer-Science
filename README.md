@@ -8,7 +8,7 @@ Classes from the school year starting in 2019 and ending in 2020.
 
 ### LASA AP Computer Science
 
-Some of the assignments for the [AP Computer Science course at LASA](https://lasacs.com/ap), a course on Java.
+Some of the assignments for the [AP Computer Science course at LASA](https://lasacs.com/ap), a course on Java. All contained within the Java folder.
 
 #### PC2-Indeed-Problems
 
@@ -28,7 +28,7 @@ Classes from the school year starting in 2019 and ending in 2020.
 
 ### LASA Advanced Computer Science
 
-The 3rd course in the main path at LASA, [Advanced Computer Science at LASA](https://lasacs.com/acp) is on C++.
+The 3rd course in the main path at LASA, [Advanced Computer Science at LASA](https://lasacs.com/acp) is on C++. All contained within the C++ folder.
 
 #### Pre-October 2020
 
