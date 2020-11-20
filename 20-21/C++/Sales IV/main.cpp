@@ -28,12 +28,12 @@ public:
     
     void setUnitCost(float newCost)
     {
-    unitCost = newCost;
+        unitCost = newCost;
     }
     
     float getUnitCost()
     {
-    return unitCost;
+        return unitCost;
     }
 
     float Total()
@@ -43,7 +43,7 @@ public:
     
     void displayRec()
     {
-    cout << "Record: " << date <<", " << region << ", " << rep << ", " << item << ", " << units << ", " << unitCost << ", " << Total() << endl;
+        cout << "Record: " << date <<", " << region << ", " << rep << ", " << item << ", " << units << ", " << unitCost << ", " << Total() << endl;
     }
 };
 
@@ -51,58 +51,58 @@ void simpleSortTotal(SALESREC* s[], int c);
 
 int main()
 {
-ifstream infile;
-int array[20];
-char cNum[10] ;
-SALESREC* salesArr[40];
-int   salesArrayCount;
-SALESREC* s[40];
+    ifstream infile;
+    int array[20];
+    char cNum[10] ;
+    SALESREC* salesArr[40];
+    int   salesArrayCount;
+    SALESREC* s[40];
 
-infile.open ("SalesDataP3.csv");
-if (infile.is_open())
-{
-    int   c=0;
-    float inputUnitCost;
-    while (infile.good())
+    infile.open ("SalesDataP3.csv");
+    if (infile.is_open())
     {
-        salesArr[c] = new SALESREC();
-        infile.getline(salesArr[c]->date, 256, ',');
-        infile.getline(salesArr[c]->region, 256, ',');
-        infile.getline(salesArr[c]->rep, 256, ',');
-        infile.getline(salesArr[c]->item, 256, ',');
-        infile.getline(cNum, 256, ',');
-        salesArr[c]->units = atoi(cNum);
-        infile.getline(cNum, 256, '\n');
-        inputUnitCost = atof(cNum);
-        salesArr[c]->setUnitCost(inputUnitCost);
-        
-        c++;
+        int   c=0;
+        float inputUnitCost;
+        while (infile.good())
+        {
+            salesArr[c] = new SALESREC();
+            infile.getline(salesArr[c]->date, 256, ',');
+            infile.getline(salesArr[c]->region, 256, ',');
+            infile.getline(salesArr[c]->rep, 256, ',');
+            infile.getline(salesArr[c]->item, 256, ',');
+            infile.getline(cNum, 256, ',');
+            salesArr[c]->units = atoi(cNum);
+            infile.getline(cNum, 256, '\n');
+            inputUnitCost = atof(cNum);
+            salesArr[c]->setUnitCost(inputUnitCost);
+            
+            c++;
+        }
+        salesArrayCount = c-1;
+        infile.close();
     }
-    salesArrayCount = c-1;
-    infile.close();
-}
-else
-{
-    cout << "Error opening file";
-}
+    else
+    {
+        cout << "Error opening file";
+    }
 
-for (int i=0; i < salesArrayCount; i++)
-    s[i] = salesArr[i];
+    for (int i=0; i < salesArrayCount; i++)
+        s[i] = salesArr[i];
 
-cout << " Unsorted Sales Record Array\n" ;
-for (int i=0; i < salesArrayCount; i++)
-    salesArr[i]->displayRec();
+    cout << " Unsorted Sales Record Array\n" ;
+    for (int i=0; i < salesArrayCount; i++)
+        salesArr[i]->displayRec();
 
-simpleSortTotal (s, salesArrayCount);
+    simpleSortTotal (s, salesArrayCount);
 
-cout << " - - - - - - - - - - - -\n" ;
-cout << " Sorted Sales Record Array\n" ;
+    cout << " - - - - - - - - - - - -\n" ;
+    cout << " Sorted Sales Record Array\n" ;
 
-for (int i=0; i < salesArrayCount; i++)
-    s[i]->displayRec();
+    for (int i=0; i < salesArrayCount; i++)
+        s[i]->displayRec();
 
-for (int i=0; i < salesArrayCount; i++)
-   free(salesArr[i]);
+    for (int i=0; i < salesArrayCount; i++)
+       free(salesArr[i]);
 
 }
 
