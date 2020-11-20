@@ -2,7 +2,7 @@
 
 SRC = main.cpp
 OBJ = main.o
-BIN = sales3
+BIN = sales5
 CXXFLAGS = -Os
 #LDFLAGS =
 

@@ -2,7 +2,7 @@
 
 SRC = main.cpp
 OBJ = main.o
-BIN = sales3
+BIN = worlddata
 CXXFLAGS = -Os
 #LDFLAGS =
 
