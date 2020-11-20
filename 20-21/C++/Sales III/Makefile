@@ -9,10 +9,13 @@ BIN = sales3
 #CXXFLAGS =
 #LDFLAGS =
 
-all: ${BIN}
+all: clean ${BIN}
 
 ${BIN}: ${OBJ}
 	$(CXX) ${OBJ} -o ${BIN} ${LDFLAGS}
 
 ${OBJ}: ${SRC}
 	$(CXX) -c ${SRC} ${CXXFLAGS}
+
+clean:
+	rm -f ${BIN} ${OBJ}
