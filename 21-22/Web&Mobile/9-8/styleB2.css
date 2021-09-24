@@ -1,0 +1,14 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    border-color:white;
+}
+table {
+    padding: 20px;
+    border:solid lightsteelblue 10px;
+}
+#last {
+    border:solid black;
+    border-width: 2px 0 0 0;
+    font-weight: bold;
+}

@@ -1,0 +1,27 @@
+body {
+    margin: -16pt 0;
+    padding: 6pt 24pt;
+    background-color: lightgreen;
+    border: crimson solid;
+    border-width: 0 12pt;
+    min-height: 100vh;
+    font-family: 'Courier New', Courier, monospace;
+    color: darkslategrey;
+}
+
+html {
+    border:salmon solid 12pt;
+    border-width: 0 72pt;
+    background-color: salmon;
+}
+
+a {
+    transition: ease 1s;
+    color: salmon;
+}
+
+a:hover {
+    color: slateblue;
+    transition: ease 2s;
+    font-weight: 900;
+}

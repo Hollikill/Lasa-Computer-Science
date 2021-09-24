@@ -1,0 +1,24 @@
+body {
+    background: url("https://images3.pixlis.com/background-image-checkers-chequered-checkered-squares-seamless-tileable-storm-grey-black-rock-2363sr.png");
+    background-size: 2%;
+}
+
+h1 {
+    color:salmon;
+    border: solid 3pt seagreen;
+    background-color: rgb(169, 230, 192);
+    padding: 0 1em;
+}
+h1:last-of-type {
+    color:rgb(81, 157, 187);
+}
+
+#makeRed {
+    color:salmon;
+    font-style: italic;
+}
+
+p {
+    color:rgb(224, 224, 118);
+    text-indent: 1em;
+}
