@@ -1,0 +1,29 @@
+body {
+    user-select: none;
+}
+
+.startline {
+    clear: both;
+    line-height: 0 px;
+}
+
+.header, .day {
+    float: left;
+    width: 10em;
+    height: 1em;
+    border: solid 0.5em gray;
+    background-color: lightgray;
+    text-align: center;
+}
+
+.day {
+    border-color: lightgray;
+    background-color: white;
+    height: 5em;
+    text-align: right;
+}
+
+.clicked {
+    border-color: red;
+    font-weight: bold;
+}
